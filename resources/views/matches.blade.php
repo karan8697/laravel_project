@@ -1,14 +1,15 @@
 @extends('header')
 
-<div class="container-fluid col-sm-10 col-sm-offset-1" style="height:560px;">
+<div class="container-fluid col-sm-12" style="height:560px;">
 	<div class="col-sm-12 container-fluid matches-heading">
 		<h1 style="margin-left: 20px;margin-top:13px;">Football</h1>
 		<div class="col-sm-12 container-fluid matches-poster" style="background: url('{{ asset('images/1_display.jpg') }}') no-repeat center center ; background-size: cover;">
 		</div>
 	</div>
 </div>
+
 	@foreach($a as $p)
-	<div class="container-fluid col-sm-5 col-sm-offset-1 matches-border">
+	<div class="container-fluid col-sm-6  matches-border">
 		<div class="match-name container-fluid col-sm-12">
 			<h2 style="margin-top: 16px;margin-left: 20px;">{{$p->league}}</h2>
 		</div>
@@ -46,7 +47,7 @@
 
 
 
-<div class="container-fluid col-sm-10 col-sm-offset-1" style="height:560px;">
+<div class="container-fluid col-sm-12" style="height:560px;">
 	<div class="col-sm-12 container-fluid matches-heading" style="margin-top: 25px;">
 		<h1 style="margin-left: 20px;margin-top:13px;">Cricket</h1>
 		<div class="col-sm-12 container-fluid matches-poster" style="background: url('{{ asset('images/2_display.png') }}') no-repeat center center ; background-size: cover;">
@@ -55,7 +56,7 @@
 </div>
 	
 	@foreach($b as $p)
-	<div class="container-fluid col-sm-5 col-sm-offset-1 matches-border">
+	<div class="container-fluid col-sm-6 matches-border">
 		<div class="match-name container-fluid col-sm-12">
 			<h2 style="margin-top: 16px;margin-left: 20px;">{{$p->league}}</h2>
 		</div>
@@ -89,7 +90,7 @@
 	@endforeach
 
 
-<div class="container-fluid col-sm-10 col-sm-offset-1" style="height:560px;">
+<div class="container-fluid col-sm-12" style="height:560px;">
 	<div class="col-sm-12 container-fluid matches-heading" style="margin-top: 25px;">
 		<h1 style="margin-left: 20px;margin-top:13px;">Basketball</h1>
 		<div class="col-sm-12 container-fluid matches-poster" style="background: url('{{ asset('images/3_display.jpg') }}') no-repeat center center ; background-size: cover;">
@@ -98,7 +99,7 @@
 </div>
 	
 	@foreach($c as $p)
-	<div class="container-fluid col-sm-5 col-sm-offset-1 matches-border">
+	<div class="container-fluid col-sm-6 matches-border">
 		<div class="match-name container-fluid col-sm-12">
 			<h2 style="margin-top: 16px;margin-left: 20px;">{{$p->league}}</h2>
 		</div>

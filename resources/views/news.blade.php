@@ -1,6 +1,6 @@
 @extends('header')
 	@foreach($a as $p)
-	<div class="col-sm-10 col-sm-offset-1 container-fluid news-box" style="margin-top: 25px;">
+	<div class="col-sm-10 col-sm-offset-1 container-fluid news-box" style="margin-top: 25px;box-shadow: 5px 10px 18px #000033;">
 		<div class="col-sm-12 container-fluid news-box-heading" >
 			<h3 style="margin-left:20px; ">{{$p->headline}}</h3>
 		</div>

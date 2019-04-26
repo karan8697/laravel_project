@@ -23,6 +23,8 @@
                 </button>
         		
         	</div>
+            <button class="btn-primary btn-lg" style="margin-top: 6px;background-color: #000031;color: #FFFFFF;border: 1px solid #FFFFFF;float: right;margin-right: 11px;" onclick="location.href = 'login';">Logout
+            </button>
     	</div>
     </header>
 </head>

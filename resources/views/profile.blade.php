@@ -1,5 +1,5 @@
 @extends('header')
-	<div class="col-sm-10 col-sm-offset-1 matches-heading">
+	<div class="col-sm-10 col-sm-offset-1 matches-heading" style="box-shadow: 5px 10px 18px #000033;">
 		<h2>Upvoted Players</h2>
 	</div>
 	<div class="col-sm-12" style="margin-top: 25px;"></div>
@@ -15,7 +15,7 @@
 	</div>
 	@endforeach
 
-	<div class="col-sm-10 col-sm-offset-1 matches-heading " style="margin-top: 25px;">
+	<div class="col-sm-10 col-sm-offset-1 matches-heading " style="margin-top: 25px;box-shadow: 5px 10px 18px #000033;">
 		<h2>Followed Matches</h2>
 	</div>
 	@foreach($b as $p)

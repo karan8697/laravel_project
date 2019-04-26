@@ -58,3 +58,5 @@ Route::get('/inputlplayers','myplayers@formdata');
 Route::get('/inputresults','myresults@formdata');
 Route::get('/inputusers','myusers@formdata');
 Route::get('/loginprocess','loginprocess@data');
+
+// Route::get('/getupvote','myupvotes@data');

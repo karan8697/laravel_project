@@ -82,6 +82,7 @@ h1,h2,h3,h4,h5,h6,p
 .match-content
 {
 	height:340px;
+	box-shadow: 5px 10px 18px #000033;
 }
 
 
@@ -127,7 +128,7 @@ h1,h2,h3,h4,h5,h6,p
 {
 	height: 340px;
 	border-radius:0px 0px 8px 8px;
-	
+	box-shadow: 5px 10px 18px #000033;
 }
 
 
@@ -141,6 +142,7 @@ h1,h2,h3,h4,h5,h6,p
 	color: #FFFFFF;
 	border-radius:8px 8px 0px 0px;
 	margin-top: 25px;
+	box-shadow: 5px 10px 18px #000033;
 }
 .result
 {
